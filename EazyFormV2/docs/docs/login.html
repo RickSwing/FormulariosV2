@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+      
+        EazyForm &middot; Login
+      
+    </title>
+
+    
+      <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+      <link href="../assets/css/toolkit-startup.css" rel="stylesheet">
+      <link href="../assets/css/application-startup.css" rel="stylesheet">
+    
+
+    
+
+    <style>
+      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+      /* this chunk of css is not part of the toolkit :) */
+      /* …curses ios, etc… */
+      @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+        body {
+          width: 1px;
+          min-width: 100%;
+          *width: 100%;
+        }
+        #stage {
+          height: 1px;
+          overflow: auto;
+          min-height: 100vh;
+          -webkit-overflow-scrolling: touch;
+        }
+      }
+    </style>
+  </head>
+
+
+<body>
+
+<div class="stage" id="stage">
+
+  <!--Registry-->
+  <div class="block text-center">
+  <div class="container-fluid">
+    
+
+    <h4 class="mb-4">
+      Bienvenido de vuelta
+    </h4>
+    <form class="form-inline d-flex justify-content-center">
+      <input class="form-control mb-3" placeholder="Cuenta de correo">
+      <input class="form-control mb-3 mx-1" type="password" placeholder="Contraseña">
+      <button class="btn btn-primary mb-3">Iniciar Sesión</button>
+    </form>
+    <small class="text-muted">
+      ¿Aún no estas registrado?<a href="">Regístrate ahora</a>
+      <a href="" data-toggle="modal" data-target="#forgot-password">¿Olvidaste tu contraseña?</a>
+    </small>
+  </div>
+</div>
+<div class="block block-bordered text-center">
+  <div class="container-fluid">
+   <blockquote class="pull-quote">
+      <p>
+        “El optimismo firme y paciente siempre rinde frutos"
+      </p>
+      <cite>Carlos Slim</cite>
+    </blockquote>
+  </div>
+</div>
+
+
+<div class="block block-inverse app-footer">
+ <div class="container">
+    <div class="row">
+      <div class="col-md-5 mb-5">
+        <ul class="list-unstyled list-spaced">
+          <li class="mb-2"><h6 class="text-uppercase">About</h6></li>
+          <li class="text-muted">
+             We’ve been working on Go Analytics for the better part of a decade and are super proud of what we’ve created. If you’d like to learn more, or are interested in a job, contact us anytime at <a href="mailto: themes@getbootstrap.com">themes@getbootstrap.com</a>.
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-2 offset-md-1 mb-5">
+        <ul class="list-unstyled list-spaced">
+          <li class="mb-2"><h6 class="text-uppercase">Product</h6></li>
+          <li class="text-muted">Features</li>
+          <li class="text-muted">Examples</li>
+          <li class="text-muted">Tour</li>
+          <li class="text-muted">Gallery</li>
+        </ul>
+      </div>
+      <div class="col-md-2 mb-5">
+        <ul class="list-unstyled list-spaced">
+          <li class="mb-2"><h6 class="text-uppercase">Apis</h6></li>
+          <li class="text-muted">Rich data</li>
+          <li class="text-muted">Simple data</li>
+          <li class="text-muted">Real time</li>
+          <li class="text-muted">Social</li>
+        </ul>
+      </div>
+      <div class="col-md-2 mb-5">
+        <ul class="list-unstyled list-spaced">
+          <li class="mb-2"><h6 class="text-uppercase">Legal</h6></li>
+          <li class="text-muted">Terms</li>
+          <li class="text-muted">Legal</li>
+          <li class="text-muted">Privacy</li>
+          <li class="text-muted">License</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal forgot-password-->
+<div class="modal fade" id="forgot-password" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="forgot-password-title">¿Olvidaste tu contraseña?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Correo electrónico:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal registry>
+<div class="modal fade" id="forgot-password" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="forgot-password-title">¿Olvidaste tu contraseña?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Correo electrónico:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div-->
+
+</div>
+    <script src="../ssets/js/jquery.min.js"></script>
+    <script src="../assets/js/tether.min.js"></script>
+    <script src="../assets/js/toolkit.js"></script>
+    <script src="../assets/js/application.js"></script>
+    <!--pops tool modal-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      //Activacion del modal
+     $('#myModal').on('shown.bs.modal', function () {
+     $('#myInput').trigger('focus')
+      })
+    </script>
+  </body>
+</html>
+
